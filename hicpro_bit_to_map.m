@@ -1,6 +1,6 @@
 function [hic_count] = hicpro_bit_to_map(data,bin_range)
 % convert bit-by-bit hic data in to matrix with given resolution
-% data: .matrix file ouput by HiC-Pro (e.g. 4000671_500.matrix)
+% data: .matrix file ouput by HiC-Pro (e.g. 4000682_10000.matrix)
 % bit_range: the range of bins of for the chromosome of interest (e.g. mouse chr12: 44828-56840)
 
 %% load .matrix file
